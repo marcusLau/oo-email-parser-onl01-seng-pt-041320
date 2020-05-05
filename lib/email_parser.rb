@@ -10,6 +10,7 @@ class EmailAddressParser
     @emails = emails
   end
   
+  # parses commas, spaces, and 
   def parse
     
   end
