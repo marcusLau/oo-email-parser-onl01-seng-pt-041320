@@ -14,8 +14,8 @@ class EmailAddressParser
   
   # parses commas, spaces, and rejects duplicate emails
   def parse
-    email_arr = @emails.split(/[,\s]+/).uniq
     # splits with , and " " as well as .uniq to remove duplicate
+    email_arr = @emails.split(/[,\s]+/).uniq
     email_arr
   end
 end
