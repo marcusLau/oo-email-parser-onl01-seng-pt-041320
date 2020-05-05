@@ -12,7 +12,7 @@ class EmailAddressParser
   
   # parses commas, spaces, and rejects duplicate emails
   def parse
-    email_arr = @emails.split()
+    email_arr = @emails.split(/[, ]/)
   end
   
   
