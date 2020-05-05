@@ -10,7 +10,7 @@ class EmailAddressParser
     @emails = emails
   end
   
-  # parses commas, spaces, and 
+  # parses commas, spaces, and rejects duplicate emails
   def parse
     
   end
