@@ -4,7 +4,7 @@
 # or whitespace (' ').
 class EmailAddressParser
   
-  
+  attr_accessible
   
   
 end
