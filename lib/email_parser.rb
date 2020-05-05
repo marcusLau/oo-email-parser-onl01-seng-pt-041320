@@ -6,8 +6,8 @@ class EmailAddressParser
   
   attr_accessor :emails
   
-  def iniitialize(emails)
-    @emails = emails
+  def iniitialize(email)
+    @emails = email
   end
   
   # parses commas, spaces, and rejects duplicate emails
